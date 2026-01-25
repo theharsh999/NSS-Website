@@ -2,6 +2,7 @@ import Image from "../../containers/Image";
 import ImagesReduced from "../../assets/projects_reduced/index";
 import Images from "../../assets/projects/index";
 import DomainLogos from "../../assets/static_images/index";
+import newImages from "../../assets/projects_2025-26";
 
 export const projectCarousel = {
   data: [
@@ -508,6 +509,56 @@ export const major_projects = [
     summary:
       "The STEM workshop, in collaboration with IEEE Bombay section, conducted a project focusing on spreading awareness about health and hygiene among children in the Saiwan village. The workshop included skits to raise awareness about the importance of millets for health, clean water issues, water conservation, and rainwater harvesting. Practical demonstrations on water purification techniques were showcased, including the distribution of protein bars, colours, and sketch pens, along with gifting a RO Kent system to the school.",
   },
+  {
+    id: 49,
+    project: "My Bharat Portal Registration",
+    images: [],
+    reduced_images: [],
+    domain: "EDUCATION, SOCIETY",
+    quote: "Empowering youth through opportunities, service, and nation-building.",
+    main: "The MyBharat Portal registration session was conducted with the objective of familiarising volunteers with the MyBharat platform and its wide range of opportunities for personal, social, and professional development. During the session, volunteers were guided through the registration process and introduced to the key features of the portal, which serves as a national platform connecting youth with internships, volunteering opportunities, skill development programmes, and community-driven initiatives.\n\nThe session emphasised the importance of active youth participation in nation-building and social service. Volunteers gained clarity on how the portal enables individuals to contribute meaningfully to society while simultaneously enhancing their skills and career prospects. Through interactive guidance and hands-on registration support, participants were encouraged to explore various domains aligned with their interests and aspirations.\n\nBy the end of the session, all volunteers had successfully registered on the MyBharat Portal and developed a clear understanding of how to leverage the platform for long-term growth. The initiative laid a strong foundation for responsible citizenship, empowering volunteers to take informed steps toward social responsibility, community engagement, and professional advancement.",
+    summary: "The MyBharat Portal registration session provided volunteers with a comprehensive introduction to the platform, highlighting the various opportunities available for personal growth, social contribution, and career advancement. By registering on the portal, volunteers gained valuable insights into its features and took essential steps toward becoming actively engaged in meaningful internships and community service projects, setting the foundation for both social responsibility and professional development.",
+  },
+  {
+    id: 50,
+    project: "Mangrove Cleanup Drive",
+    images: [...newImages.mangroveCleanUp],
+    reduced_images: [],
+    domain: "HEALTH, SOCIETY",
+    quote: "Protecting mangroves today, preserving our planet for tomorrow.",
+    main: "The Mangrove Cleanup Drive was organised with the objective of restoring and protecting the fragile mangrove ecosystem while spreading awareness about the importance of environmental conservation. Volunteers actively participated in cleaning the area by removing plastic waste and other pollutants, contributing directly to the preservation of this vital natural habitat.\n\nAlong with the cleanup activity, the drive served as an educational initiative where volunteers were informed about the ecological significance of mangroves, including their role in preventing coastal erosion, supporting biodiversity, and acting as natural barriers against climate-related impacts. This knowledge helped volunteers develop a deeper understanding of environmental responsibility and sustainability.\n\nThe activity encouraged teamwork, discipline, and a sense of shared responsibility among participants. By combining hands-on action with environmental education, the Mangrove Cleanup Drive proved to be a meaningful step toward sustainable community engagement and long-term environmental stewardship.",
+    summary: "The Mangrove Cleanup Drive not only resulted in a cleaner ecosystem but also educated volunteers on the importance of conservation. The event fostered teamwork, responsibility, and environmental sensitivity, marking it as a successful step towards sustainable community engagement.",
+    },
+  {
+    id: 51,
+    project: "School Teaching Project",
+    images: [...newImages.schoolTeaching],
+    reduced_images: [],
+    domain: "EDUCATION",
+    quote: "Learning together, growing with confidence and compassion.",
+    main: "The project was conducted successfully with the aim of creating a positive and encouraging learning environment for children. Through teaching activities, fun games, and interactive sessions, the initiative helped students overcome stage fear and gradually build confidence in expressing themselves. The engaging approach ensured that learning remained enjoyable while fostering curiosity and participation among the children.\n\nThe activities were thoughtfully designed to support holistic development, allowing students to improve their communication skills, teamwork, and self-belief. By interacting freely with volunteers, the children felt motivated and comfortable, which contributed to a supportive and inclusive atmosphere throughout the sessions.\n\nFor the volunteers, the project proved to be a valuable learning experience. It strengthened their sense of empathy, teamwork, and leadership while reinforcing the importance of social responsibility. Overall, the initiative was impactful and meaningful, benefiting both the children and the volunteers while promoting the spirit of community service.",
+    summary: "The project was conducted successfully and helped children overcome stage fear and build confidence through teaching, games, and interactive sessions. It created a positive environment for students while giving volunteers valuable experience in teamwork, empathy, and leadership, making the initiative impactful and meaningful."
+  },
+  {
+    id: 52,
+    project: "Youth Day",
+    images: [],
+    reduced_images: [],
+    domain: "EDUCATION",
+    quote: "Awakening youth potential through the ideals of Swami Vivekananda.",
+    main: "The Youth Day Project conducted by the NSS unit at Dream Park, Kandivali, was a thoughtful initiative aimed at honouring the teachings and vision of Swami Vivekananda. The activity focused on inspiring young minds by highlighting the importance of confidence, self-belief, discipline, and responsibility in shaping a strong nation.\n\nAs part of the project, volunteers created an engaging Instagram reel that effectively communicated Swami Vivekananda’s message of empowered and value-driven youth. Through creative visuals and impactful messaging, the reel resonated with a wider audience, making the teachings accessible and relevant to today’s generation.\n\nThe initiative not only promoted national and moral values but also encouraged young individuals to recognise their inner potential and actively contribute to society. By blending digital creativity with social awareness, the Youth Day Project successfully reinforced the role of youth in nation-building and fostered a sense of pride, motivation, and responsibility among participants.", 
+    summary: "The Youth Day Project conducted by the NSS unit at Dream Park, Kandivali, was a meaningful initiative to honor the teachings of Swami Vivekananda. By creating an Instagram reel, the volunteers effectively conveyed his vision of a strong, confident, and responsible Indian youth. The activity not only promoted national values but also encouraged young individuals to believe in their potential and contribute positively to society.",
+    },
+  {
+    id: 53,
+    project: "IFS Officer Meet",
+    images: [...newImages.IFS_officerMeet],
+    reduced_images: [],
+    domain: "EDUCATION",
+    quote: "From service in NSS to service for the nation — a journey that inspires leaders.",
+    main: "The TCET NSS UNIT organised an inspiring interaction session to welcome Mr. Deepak Vishwakarma, an Indian Foreign Service (IFS) officer and a proud alumnus of TCET. As a former TCET NSS UNIT Volunteer (2018–20) and Council Member (2019–20), Mr. Vishwakarma shared his remarkable journey of growth, perseverance, and dedication to national service. The session aimed to motivate current volunteers by demonstrating how involvement in NSS can shape character, leadership, and a strong sense of responsibility.\n\nDuring the interaction, Mr. Vishwakarma reflected on his experiences as an NSS volunteer and council member, explaining how the values instilled through NSS—such as discipline, teamwork, empathy, and commitment to service—played a vital role in his journey toward becoming an IFS officer. He highlighted the importance of consistent effort, self-belief, and learning from grassroots experiences while preparing for competitive examinations and public service.\n\nThe session proved to be highly motivating for the volunteers, offering them a real-life example of how service through NSS can evolve into service for the nation. It encouraged students to actively participate in NSS activities, take on leadership roles, and remain committed to personal growth and social responsibility. Overall, the interaction left a lasting impact, inspiring volunteers to pursue their aspirations with dedication while upholding the spirit of national service.", 
+    summary: "The session with IFS officer Mr. Deepak Vishwakarma inspired volunteers by showcasing his journey from being an NSS volunteer and council member at TCET to serving the nation as a civil servant. The interaction highlighted how values, discipline, and leadership developed through NSS played a crucial role in shaping his career and commitment to public service.",
+    },
 ];
 
 export const minor_project = [
@@ -970,14 +1021,183 @@ export const minor_project = [
     domain: "SOCIETY, CAMP",
   },
   {
-    id: 252,
-    image: Images.RainSurvey,
-    project: "Rain Water Harvesting Survey Project",
-    quote: "In every drop, a lesson. In every survey, a solution",
-    summary:
-      "The project aims to evaluate villagers' knowledge and practices regarding Rain Water Harvesting, identifying areas for improvement. Volunteers are strategically divided into subgroups and conduct surveys in a few of the houses, inquiring about awareness and implementation of Rain Water Harvesting. Villagers highlighted water scarcity challenges in May, emphasizing the use of rainwater for laundry. The survey provides valuable insights into seasonal water challenges and informed ongoing donation initiatives and awareness campaigns.",
-    domain: "SOCIETY, CAMP",
-  },
+  id: 252,
+  image: Images.RainSurvey,
+  project: "Rain Water Harvesting Survey Project",
+  quote: "In every drop, a lesson. In every survey, a solution",
+  summary:
+    "The project aims to evaluate villagers' knowledge and practices regarding Rain Water Harvesting, identifying areas for improvement. Volunteers are strategically divided into subgroups and conduct surveys in a few of the houses, inquiring about awareness and implementation of Rain Water Harvesting. Villagers highlighted water scarcity challenges in May, emphasizing the use of rainwater for laundry. The survey provides valuable insights into seasonal water challenges and informed ongoing donation initiatives and awareness campaigns.",
+  domain: "SOCIETY, CAMP",
+},
+{
+  id: 253,
+  image: [...newImages.Yoga_Training_Camp],
+  project: "Yoga Training Camp",
+  quote: "Embracing yoga for unity, well-being, and a healthier tomorrow.",
+  summary:
+    "The Yoga Day celebration on 21st June 2025 marked a successful culmination of thoughtful planning, volunteer preparation at Kaivalyadhama, and active community participation. The event not only promoted physical and mental well-being but also empowered volunteers with organizational and wellness skills. With overwhelming positive feedback and a strong sense of unity, the initiative reaffirmed the value of yoga as a powerful tool for sustainable, mindful living—setting the foundation for future wellness-driven activities under NSS",
+  domain: "HEALTH",
+},
+{
+  id: 254,
+  image: [...newImages.International_Yoga_Day],
+  project: "International Yoga Day",
+  quote: "Unifying minds and bodies through the timeless practice of yoga.",
+  summary:
+    "The International Yoga Day celebration at TCET was organised to promote holistic well-being and raise awareness about the importance of incorporating yoga into daily life. The event created a calm, inclusive, and unifying atmosphere where participants collectively experienced the physical, mental, and emotional benefits of yoga practices.\n\nThrough guided sessions and mindful participation, the initiative highlighted the simplicity and effectiveness of yoga as a sustainable wellness practice. The celebration strongly resonated with the core values of the NSS by encouraging discipline, self-care, and collective well-being. Overall, the event successfully fostered mental clarity, physical strength, and emotional balance, leaving participants inspired to adopt healthier lifestyles and reinforcing the role of yoga in nurturing a harmonious and mindful community.",
+  domain: "HEALTH",
+},
+{
+  id: 255,
+  image: [...newImages.TCET_SilverJubliee_Volunteering],
+  project: "TCET Silver Jubilee Discipline Volunteering",
+  quote: "Discipline in action, service with pride, leadership in every step.",
+  summary:
+    "The TCET Silver Jubilee Discipline Volunteering project was carried out with exceptional dedication and professionalism by the NSS volunteers. Their disciplined approach, punctuality, and sense of responsibility played a crucial role in ensuring the smooth execution of the prestigious Silver Jubilee celebrations, creating a positive and well-organised environment throughout the event.\n\nVolunteers efficiently managed crowd movement, assisted dignitaries, and coordinated seamlessly with the organising team, reflecting their strong commitment to service. The dignitaries and attendees appreciated the volunteers’ courteous behaviour, teamwork, and ability to handle responsibilities with maturity and confidence.\n\nThis initiative not only contributed significantly to the overall success of the Silver Jubilee event but also enhanced the volunteers’ public leadership, communication, and organisational skills. The experience reinforced the importance of discipline and teamwork, further strengthening the role of NSS as a dependable pillar of support in major institutional functions at TCET.",
+  domain: "SOCIETY",
+},
+{
+  id: 256,
+  image: [...newImages.MedicalSurvey_in_SinghEstate],
+  project: "Medical Survey in Singh Estate",
+  quote: "Reaching communities, understanding needs, and strengthening grassroots healthcare.",
+  summary:
+    "The medical survey conducted at Singh Estate marked an important initiative aimed at assessing the healthcare needs of the local community. With the enthusiastic participation of 59 dedicated NSS volunteers, the survey successfully covered more than 100 households, focusing on basic health screenings, awareness, and data collection.\n\nThrough direct interaction with residents, volunteers gained valuable insights into prevalent health concerns and challenges faced at the grassroots level. The collected information will serve as a useful foundation for planning future health interventions and awareness programmes. The activity also strengthened teamwork, empathy, and a sense of social responsibility among the volunteers, highlighting the powerful role of youth-led initiatives in bridging healthcare gaps and supporting community well-being.",
+  domain: "SOCIETY, HEALTH",
+},
+{
+  id: 257,
+  image: [...newImages.Drug_Awareness_Campaign],
+  project: "Drug Awareness Campaign",
+  quote: "Raising voices against addiction, empowering lives through awareness.",
+  summary:
+    "The TCET NSS UNIT’s Drug Awareness Campaign was conducted through a powerful street play aimed at spreading awareness about the harmful effects of substance abuse. This youth-led initiative actively involved 33 NSS volunteers and successfully reached an audience of over 100 individuals, creating a strong emotional and social impact.\n\nThrough impactful performances and relatable messaging, the street play effectively conveyed the importance of prevention, awareness, and support in combating drug abuse. The initiative sparked meaningful conversations within the community, encouraging individuals to reflect on the consequences of substance addiction. Overall, the campaign highlighted the role of youth-driven efforts in promoting social awareness and fostering a responsible, informed, and healthier society.",
+  domain: "SOCIETY, HEALTH",
+},
+{
+  id: 258,
+  image: [...newImages.Anti_Ragging_Awareness_Discipline_Volunteering],
+  project: "Anti Ragging Awareness Discipline Volunteering",
+  quote: "Stronger communication builds stronger teams for meaningful service.",
+  summary:
+    "The NSS gathering served as an important platform to brief all volunteers and align them under a shared plan of action. The face-to-face interaction enhanced clarity in communication, ensured accountability, and strengthened group bonding among the volunteers.\n\nThe gathering allowed volunteers to openly discuss responsibilities, expectations, and upcoming service activities, fostering a sense of unity and preparedness. While the session was effective overall, incorporating a longer notice period and extended question-and-answer time in the future could further enhance its impact. Overall, the gathering played a vital role in preparing the team for coordinated and efficient service initiatives.",
+  domain: "SOCIETY",
+},
+{
+  id: 259,
+  image: [...newImages.Independence_Day_Dry_Run],
+  project: "Dry Run for Independence Day",
+  quote: "Preparation with discipline leads to patriotic excellence.",
+  summary:
+    "The dry run for the Independence Day ceremony proved to be a crucial and productive exercise for the TCET NSS UNIT. It provided clarity in roles and responsibilities, instilled discipline among the volunteers, and ensured that every aspect of the main event was well-coordinated and organised.\n\nGuided by the patriotic spirit of \"मेरा भारत, मेरी शान, तिरंगा मेरी जान\", the rehearsal strengthened the team’s readiness and confidence. The successful execution of the dry run guaranteed that the Independence Day celebration would be conducted with dignity, precision, and true patriotic fervour, reflecting respect and honour for the nation.",
+  domain: "SOCIETY",
+},
+{
+  id: 260,
+  image: [...newImages.Edu_Fair_Volunteering],
+  project: "Education Fair Volunteering",
+  quote: "Service with discipline creates impact beyond the event.",
+  summary:
+    "The Education Fair Volunteering conducted on 16th September 2025 at TCET A-Wing Stairs was executed successfully with the dedicated efforts of NSS volunteers. They played a vital role in maintaining discipline, assisting visitors, and coordinating smoothly with stall representatives, ensuring the efficient flow of activities throughout the fair.\n\nThe volunteers demonstrated professionalism, responsibility, and teamwork, which greatly contributed to the smooth conduct of the event. This initiative not only supported the participants and organisers but also helped volunteers develop essential organisational, leadership, and communication skills. Overall, the experience reinforced the credibility of NSS as a reliable and disciplined support system for institutional events at TCET.",
+  domain: "EDUCATION",
+},
+{
+  id: 261,
+  image: [...newImages.Zephyr_Discipline_Volunteering],
+  project: "Zephyr Discipline Volunteering",
+  quote: "Discipline, teamwork, and calm action ensure the success of every celebration.",
+  summary:
+    "Discipline volunteering plays a crucial role in ensuring the smooth, safe, and successful execution of college festivals. By effectively managing crowds and addressing noncooperative behaviour, volunteers help maintain a peaceful and enjoyable environment for all participants.\n\nThrough calm conduct, clear communication, and strong teamwork, volunteers are able to handle challenges efficiently and prevent disruptions. Continuous training and proper coordination further strengthen their ability to respond promptly to situations, uphold discipline, and contribute to a well-organised and memorable event experience.",
+  domain: "SOCIETY",
+},
+{
+  id: 262,
+  image: [...newImages.De_Addiction_Rally],
+  project: "De-Addiction Rally",
+  quote: "United voices and determined steps can lead society toward freedom from addiction.",
+  summary:
+    "The participation of the TCET NSS Unit in the Mumbai University–organised Rally Against De-addiction was a commendable initiative aimed at promoting social awareness and responsible living. By marching from Azad Maidan to the Gateway of India, NSS volunteers displayed unity, discipline, and commitment while conveying strong messages through impactful slogans and informative posters.\n\nThe rally effectively engaged the public and highlighted the serious issue of addiction, encouraging reflection and dialogue among citizens. The active involvement of youth in such a large-scale awareness programme demonstrated the power of collective action in driving positive social change. Overall, the event reinforced the role of NSS volunteers as responsible change-makers dedicated to building a healthier and more aware society.",
+  domain: "HEALTH, SOCIETY",
+},
+{
+  id: 263,
+  image: [...newImages.India_Maritime_Week_Exhibition],
+  project: "Indian Maritime Week Exhibition",
+  quote: "Exploring the blue economy to understand progress, sustainability, and national growth.",
+  summary:
+    "The Indian Maritime Week Exhibition visit proved to be an informative and enriching experience for the NSS volunteers. The exhibition offered valuable insights into India’s maritime strength, technological advancements, sustainable practices, and innovations supporting the growth of the blue economy.\n\nVolunteers were inspired by the scale and diversity of exhibits, which highlighted the critical role of the maritime sector in national development and environmental stewardship. The visit successfully blended education, exploration, and social awareness, reflecting the NSS vision of holistic development through experiential learning and encouraging volunteers to appreciate the importance of sustainable progress in nation-building.",
+  domain: "SOCIETY",
+},
+{
+  id: 264,
+  image: [...newImages.Mass_Vande_Mataram_Singing],
+  project: "Mass Vande Mataram Singing",
+  quote: "One song, one voice, one nation — united in pride and patriotism.",
+  summary:
+    "The Mass Vande Mataram Singing organised by the University of Mumbai was a historic and emotionally powerful celebration of India’s unity and cultural heritage. The enthusiastic participation of TCET NSS volunteers infused the event with youthful energy and strong patriotic spirit, enhancing the overall impact of the gathering.\n\nAs thousands of voices came together in harmony, the essence of collective nationalism and unity was deeply felt. The event inspired a profound sense of pride among participants and served as a reminder of the cultural strength and shared values that bind the nation together. Overall, the initiative beautifully reflected the spirit of togetherness and national pride, leaving a lasting impression on all those involved.",
+  domain: "SOCIETY",
+},
+{
+  id: 265,
+  image: [...newImages.Self_Defence_Workshop],
+  project: "Self Defence Workshop",
+  quote: "Empowering women with confidence, skills, and the strength to stay safe.",
+  summary:
+    "The Self-Defence Workshop conducted on 8th November 2025 was a highly impactful initiative focused on enhancing women’s safety and empowerment. Through practical demonstrations, interactive training sessions, and motivational guidance, participants gained essential self-defence skills along with the confidence to handle challenging situations effectively.\n\nNSS volunteers played an active role in organising and facilitating the workshop, ensuring smooth coordination and participant engagement. The initiative strongly emphasised the importance of safety education and highlighted how community-driven efforts can empower women. Overall, the workshop reflected the true essence of NSS service by promoting empowerment through awareness, action, and skill-building.",
+  domain: "SOCIETY",
+},
+{
+  id: 266,
+  image: [...newImages.Veer_Baal_Diwas],
+  project: "Veer Bal Diwas",
+  quote: "Honouring young heroes by spreading courage, sacrifice, and patriotism.",
+  summary:
+    "The Veer Bal Diwas Nukkad Natak was a meaningful and impactful initiative carried out by the NSS volunteers to spread the message of bravery, sacrifice, and patriotism among the public. By performing the street play in a public park, the volunteers ensured that the message reached a wider and more diverse audience.\n\nThe activity successfully created social awareness while providing volunteers with an opportunity to enhance their confidence, teamwork, and communication skills. Through expressive performances and strong messaging, the initiative highlighted the importance of remembering young heroes and fostering patriotic values, reflecting the spirit of NSS service and community engagement.",
+  domain: "SOCIETY",
+},
+{
+  id: 267,
+  image: [...newImages.Tspark_Inauguration],
+  project: "T-Spark Inauguration",
+  quote: "Beginning with integrity, unity, and the spirit of collective responsibility.",
+  summary:
+    "The T-Spark Inauguration marked a meaningful and purposeful beginning to TCET’s annual sports event by incorporating a pledge on National Integrity. The initiative emphasised the values of unity, discipline, and social responsibility, setting a positive and ethical tone for the entire event.\n\nThe active participation of NSS volunteers, along with the Principal, Dean, HODs, and students, reflected a strong sense of togetherness and commitment to national values. By integrating social awareness with a major institutional event, the inauguration reinforced the role of NSS in promoting integrity and responsible citizenship within the college community.",
+  domain: "SOCIETY",
+},
+{
+  id: 268,
+  image: [...newImages.Road_Safety_Rally],
+  project: "Road Safety Rally",
+  quote: "Safe roads begin with disciplined action and responsible citizens.",
+  summary:
+    "The Road Safety Rally conducted at Vivek College, Mumbai was organised in a well-planned and disciplined manner, reflecting the commitment and preparedness of the NSS volunteers. Volunteers reported to the venue on time and actively participated in preparatory activities such as warm-up exercises and zumba sessions, which helped create positive energy and enthusiasm before the rally.\n\nThe rally was carried out in an orderly fashion, with volunteers moving in pairs along a designated circuit route that began and concluded at the college premises. Their disciplined participation ensured smooth coordination and effective message delivery. Upon successful completion of the rally, volunteers were appreciated for their energetic involvement, while college leaders were honoured with participation certificates. All volunteers were also provided with refreshments and certificates, bringing the event to a positive conclusion that reinforced teamwork, discipline, and social responsibility among the NSS volunteers.",
+  domain: "SOCIETY",
+},
+{
+  id: 269,
+  image: [...newImages.Importance_Of_Voting],
+  project: "Importance of Voting",
+  quote: "Every vote counts in shaping the future of our democracy.",
+  summary:
+    "The awareness activity on the Importance of Voting conducted by the NSS unit effectively highlighted the responsibility of every citizen in strengthening a democratic system. By using an Instagram reel as the medium, the initiative successfully reached a wider audience, particularly the youth, making the message engaging and accessible.\n\nThe activity encouraged young citizens to understand the significance of exercising their right to vote responsibly and actively participate in the democratic process. By promoting civic awareness through digital platforms, the initiative reinforced the value of informed participation in nation-building and reflected the NSS commitment to fostering responsible and aware citizens.",
+  domain: "SOCIETY",
+},
+{
+  id: 270,
+  image: [...newImages.Dr_MR_Srinivasan_Memorial_Lecture],
+  project: "Dr. M. R. Srinivasan Memorial Lecture",
+  quote: "Serving knowledge, honouring vision, and celebrating national progress.",
+  summary:
+    "The project titled “Honouring Vision, Science, and National Development” proved to be a significant and enriching experience for the NSS volunteers. By actively supporting the Dr. M. R. Srinivasan Memorial Lecture, volunteers contributed to the smooth and disciplined conduct of an event that highlighted India’s remarkable achievements in nuclear energy and scientific advancement.\n\nThrough their service and coordination, the volunteers upheld the values of responsibility and professionalism while being exposed to inspiring insights on national development and scientific vision. The activity strengthened a sense of discipline, teamwork, and national pride among the volunteers, reinforcing the role of NSS in supporting knowledge-driven initiatives and fostering respect for India’s scientific legacy.",
+  domain: "SOCIETY",
+},
+  // {
+  //   image: [],
+  //   project: "",
+  //   quote: "",
+  //   summary: "",
+  //   domain: "SOCIETY",
+  // },
 ];
 
 export const domain_names = [
