@@ -5,8 +5,9 @@ export default function NavMenu({ isOpen, setSidebar }) {
     { id: 1, title: "Home", link: "../" },
     { id: 2, title: "About Us", link: "../about" },
     { id: 3, title: "Teams", link: "../team" },
-    { id: 4, title: "Testimonials", link: "../testimonials" },
-    { id: 5, title: "Projects", link: "../projects" },
+    { id: 4, title: "Archive", link: "../archive" },
+    { id: 5, title: "Testimonials", link: "../testimonials" },
+    { id: 6, title: "Projects", link: "../projects" },
   ];
 
   return (

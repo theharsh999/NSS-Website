@@ -1,0 +1,311 @@
+.archive-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding-top: 65px;
+}
+
+.archive-header {
+  background-color: #1a365d;
+  padding: 2.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.archive-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.archive-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .archive-title {
+    font-size: 1.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .archive-title {
+    font-size: 2.25rem;
+  }
+}
+
+.archive-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .archive-subtitle {
+    font-size: 1rem;
+  }
+}
+
+.archive-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .archive-main {
+    padding: 3rem 1rem;
+  }
+}
+
+.archive-section {
+  margin-bottom: 0;
+}
+
+.archive-section-spacing {
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .archive-section-spacing {
+    margin-top: 4rem;
+  }
+}
+
+.archive-year-heading {
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.archive-year-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .archive-year-title {
+    font-size: 1.5rem;
+  }
+}
+
+.archive-council {
+  margin-bottom: 2.5rem;
+}
+
+.archive-junior-council {
+  margin-bottom: 2.5rem;
+}
+
+.archive-section-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #4a5568;
+  margin: 0 0 1.5rem 0;
+}
+
+.archive-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .archive-grid {
+    gap: 1.5rem;
+  }
+}
+
+.archive-grid-council {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .archive-grid-council {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .archive-grid-council {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.archive-grid-junior {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .archive-grid-junior {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .archive-grid-junior {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.archive-grid-groups {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .archive-grid-groups {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.archive-footer {
+  background-color: #f7fafc;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+.archive-footer-text {
+  font-size: 0.875rem;
+  color: #718096;
+  text-align: center;
+  margin: 0;
+}
+
+.team-member-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* .team-member-card-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+  background-color: #f7fafc;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.team-member-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.team-member-card-image-container {
+  width: 100%;
+  height: 420px; 
+  background-color: #e6e6fa;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.team-member-card-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #edf2f7;
+}
+
+.team-member-card-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin: 1rem 0 0.25rem 0;
+}
+
+@media (min-width: 768px) {
+  .team-member-card-name {
+    font-size: 1rem;
+  }
+}
+
+.team-member-card-position {
+  font-size: 0.95rem;  
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .team-member-card-position {
+    font-size: 0.875rem;
+  }
+}
+
+.team-group-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.team-group-card-image-container {
+  width: 100%;
+  height: 200px;
+  background-color: #f7fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 640px) {
+  .team-group-card-image-container {
+    height: 280px;
+  }
+}
+
+@media (min-width: 768px) {
+  .team-group-card-image-container {
+    height: 340px;
+  }
+}
+
+.team-group-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-group-card-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #edf2f7;
+}
+
+.team-group-card-title-container {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #e2e8f0;
+}
+
+.team-group-card-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #1a202c;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .team-group-card-title {
+    font-size: 1rem;
+  }
+}

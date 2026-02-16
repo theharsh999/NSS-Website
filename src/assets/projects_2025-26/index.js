@@ -36,7 +36,7 @@ const Images = {
     ],
 
     Anti_Ragging_Awareness_Discipline_Volunteering: [
-        
+        require("./Anti_Ragging_Awareness_Discipline_Volunteering.jpg")
     ],
 
     Independence_Day_Dry_Run: [
@@ -76,7 +76,7 @@ const Images = {
     ],
 
     Road_Safety_Rally: [
-        
+        require("./Road_Safety_Rally.jpg")
     ],
 
     Dr_MR_Srinivasan_Memorial_Lecture: [

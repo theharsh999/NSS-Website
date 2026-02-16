@@ -13,6 +13,7 @@ import {
   Home,
   ImageGallery,
 } from "./pages/index";
+import Archive from "./pages/Archive/Archive";
 import { LoaderStart, SlowInternet } from "./components/Loaders/index";
 import NotFoundPage from "./pages/NotFoundPage";
 
@@ -39,6 +40,7 @@ function App() {
             <Route element={<NavbarOnly phase={1} />}>
               <Route path="/testimonials" element={<Testimonial />} />
               <Route path="/imagegallery" element={<ImageGallery />} />
+              <Route path="/archive" element={<Archive />} />
             </Route>
             <Route element={<NavbarFooter phase={1} />}>
               <Route path="*" element={<NotFoundPage />} />
