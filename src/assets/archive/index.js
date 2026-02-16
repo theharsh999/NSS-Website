@@ -66,5 +66,4 @@ const ArchiveImages = {
     Creative_Team_2025_26: require("./2025-26/Creative_Team.png"),
   },
 };
-
 export default ArchiveImages;
