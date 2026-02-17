@@ -45,14 +45,14 @@ const ArchiveImages = {
 
   "2025-26": {
     // Councils
+    Pragati_Jha: require("./2025-26/Pragati_Jha.png"),
     Shweta_Yadav: require("./2025-26/Shweta_Yadav.png"),
     Rajkumar_Yadav: require("./2025-26/Rajkumar_Yadav.png"),
-    Pragati_Jha: require("./2025-26/Pragati_Jha.png"),
     Adarsh_Singh: require("./2025-26/Adarsh_Singh.png"),
     Krishna_Kulkarni: require("./2025-26/Krishna_Kulkarni.png"),
     Omwardhan_Jha: require("./2025-26/Omwardhan_Jha.png"),
-    Mangilal_Choudhary: require("./2025-26/Mangilal_Chaudhary.png"),
     Kshitij_Dubey: require("./2025-26/Kshitij_Dubey.png"),
+    Mangilal_Choudhary: require("./2025-26/Mangilal_Chaudhary.png"),
     Prashant_Swamy: require("./2025-26/Prashant_Swamy.png"),
 
     // JC's
