@@ -178,5 +178,25 @@ const ProjectGallery = {
   project178: require("../project_gallery/Pg img 178.webp"),
   project179: require("../project_gallery/Pg img 179.webp"),
   project180: require("../project_gallery/Pg img 180.webp"),
+
+  // 2025 - 26 Project Images
+  project181: require("../projects_2025-26/Anti_Ragging_Awareness_Discipline_Volunteering.jpg"),
+  project182: require("../projects_2025-26/International_Yoga_Day_img1.jpg"),
+  project183: require("../projects_2025-26/TCET_SilverJubliee_img1.jpg"),
+  project184: require("../projects_2025-26/Medical_Survey_SinghEstate_img1.jpg"),
+  project185: require("../projects_2025-26/Drug_Awareness_Campaign_img1.jpg"),
+  project186: require("../projects_2025-26/Anti_Ragging_Awareness_Discipline_Volunteering.jpg"),
+  project187: require("../projects_2025-26/Independence_Day_Dry_Run.jpg"),
+  project188: require("../projects_2025-26/EduFair_Volnteering_img1.jpg"),
+  project189: require("../projects_2025-26/Zephyr_Discipline_Volunteering_img1.jpg"),
+  project190: require("../projects_2025-26/De-Addiction_Rally_img1.jpg"),
+  project191: require("../projects_2025-26/Self_Defence_Workshop_img1.jpg"),
+  project192: require("../projects_2025-26/India_Maritime_Exhibition_img1.jpg"),
+  project193: require("../projects_2025-26/Mass_Vande_Mataram_Singing.jpg"),
+  project194: require("../projects_2025-26/Veer_Baal_Diwas.jpg"),
+  project195: require("../projects_2025-26/Tspark_Inauguration.jpg"),
+  project196: require("../projects_2025-26/Road_Safety_Rally.jpg"),
+  project197: require("../projects_2025-26/Dr_MR_Srinivasan_Memorial_Lecture.jpg"),
+  project198: require("../projects_2025-26/Yoga_Training_Camp_img1.jpg"),
 };
 export default ProjectGallery;

@@ -26,6 +26,79 @@ const CardList = ({ imageCards }) => {
 
 const ImageGallery = () => {
   const imageCards = [
+    // 2025-26 Projects Images
+    {
+      ProjectImg: Projects.project181,
+      ReducedImg: Projects.project181,
+    },
+    {
+      ProjectImg: Projects.project182,
+      ReducedImg: Projects.project182,
+    },
+    {
+      ProjectImg: Projects.project183,
+      ReducedImg: Projects.project183,
+    },
+    {
+      ProjectImg: Projects.project184,
+      ReducedImg: Projects.project184,
+    },
+    {
+      ProjectImg: Projects.project185,
+      ReducedImg: Projects.project185,
+    },
+    {
+      ProjectImg: Projects.project186,
+      ReducedImg: Projects.project186,
+    },
+    {
+      ProjectImg: Projects.project187,
+      ReducedImg: Projects.project187,
+    },
+    {
+      ProjectImg: Projects.project188,
+      ReducedImg: Projects.project188,
+    },
+    {
+      ProjectImg: Projects.project189,
+      ReducedImg: Projects.project189,
+    },
+    {
+      ProjectImg: Projects.project190,
+      ReducedImg: Projects.project190,
+    },
+    {
+      ProjectImg: Projects.project191,
+      ReducedImg: Projects.project191,
+    },
+    {
+      ProjectImg: Projects.project192,
+      ReducedImg: Projects.project192,
+    },
+    {
+      ProjectImg: Projects.project193,
+      ReducedImg: Projects.project193,
+    },
+    {
+      ProjectImg: Projects.project194,
+      ReducedImg: Projects.project194,
+    },
+    {
+      ProjectImg: Projects.project195,
+      ReducedImg: Projects.project195,
+    },
+    {
+      ProjectImg: Projects.project196,
+      ReducedImg: Projects.project196,
+    },
+    {
+      ProjectImg: Projects.project197,
+      ReducedImg: Projects.project197,
+    },
+    {
+      ProjectImg: Projects.project198,
+      ReducedImg: Projects.project198,
+    },
     {
       ProjectImg: Projects.project1,
       ReducedImg: ReducedProjects.project_reduced1,
@@ -694,7 +767,7 @@ const ImageGallery = () => {
       ProjectImg: Projects.project167,
       ReducedImg: ReducedProjects.project_reduced167,
     },
-    
+
     {
       ProjectImg: Projects.project168,
       ReducedImg: ReducedProjects.project_reduced167,
@@ -746,7 +819,7 @@ const ImageGallery = () => {
     {
       ProjectImg: Projects.project180,
       ReducedImg: ReducedProjects.project_reduced167,
-    },
+    }
   ];
 
   useEffect(() => {
