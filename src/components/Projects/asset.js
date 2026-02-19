@@ -3,7 +3,6 @@ import ImagesReduced from "../../assets/projects_reduced/index";
 import Images from "../../assets/projects/index";
 import DomainLogos from "../../assets/static_images/index";
 import newImages from "../../assets/projects_2025-26";
-
 export const projectCarousel = {
   data: [
     <Image
@@ -59,7 +58,7 @@ export const major_projects = [
     id: 11,
     project: "Cardiac Arrest Seminar",
     domain: "EDUCATION",
-    images: [...Images.CardiacArrest],
+    images: [...newImages.CardiacArrest, ...Images.CardiacArrest],
     reduced_images: [...ImagesReduced.CardiacArrest],
     quote: "In the silence of a heartbeat, the story of survival begins.",
     main: `In the heart of Thakur College of Engineering and Technology, Kandivali, we gathered for the "Cardiac Arrest Seminar". Our aim was straightforward: to help everyone better understand cardiac arrests and heart attacks. This special project provided TCET NSS Volunteers with hands-on experience, letting them practise chest compressions and use an AED on dummy patients—a crash course in providing first-aid for heart-related emergencies.
@@ -98,7 +97,7 @@ export const major_projects = [
     id: 14,
     project: "Tree Plantation Drive",
     domain: "ENVIRONMENT",
-    images: [...Images.TreePlantaion],
+    images: [...newImages.TreePlantaion, ...Images.TreePlantaion],
     reduced_images: [...ImagesReduced.TreePlantaion],
     quote: `Sow the seed of change, secure a greener tomorrow`,
     main: `The TCET NSS UNIT's Tree Plantation Drive is one of their main projects where enthusiastic volunteers actively participate and contribute their part. The volunteers create catchy slogans on Tree Plantation, setting a positive tone for the day. The main focus of the project is to plant over 100+ saplings, demonstrating ongoing dedication to the environment. The volunteers are guided about the proper way to plant trees, gaining valuable skills and fostering teamwork.
@@ -126,7 +125,7 @@ export const major_projects = [
     id: 16,
     project: "Swachhta Abhiyan",
     domain: "ENVIRONMENT",
-    images: [...Images.Swacchata],
+    images: [...newImages.Swacchata, ...Images.Swacchata],
     reduced_images: [...ImagesReduced.Swacchata],
     quote: `Trash in the bin, let the cleanliness win!"`,
     main: `"Swachhta Abhiyan" is like a special cleanliness drive at Mumbai University. Volunteers from TCET NSS UNIT work hard to clean up different areas in the university and nearby places. But they do more than just clean – they interact with other unit volunteers about why it's important to keep things clean and stay healthy.
@@ -140,7 +139,7 @@ export const major_projects = [
     id: 17,
     project: "Paper Bag Making",
     domain: "ENVIRONMENT",
-    images: [...Images.Paperbag],
+    images: [...newImages.Paperbag, ...Images.Paperbag],
     reduced_images: [...ImagesReduced.Paperbag],
     quote: `Paper bag not plastic, a choice so fantastic!
     The first step was to raise awareness. The volunteers worked hard to spread the word among their own group and the people nearby. They wanted everyone to know that using recyclable paper is a smart choice for our planet. By interacting with people and sharing information, they hoped to create a ripple effect of understanding and change.
@@ -153,7 +152,7 @@ export const major_projects = [
     id: 18,
     project: "Eco Carry Drive : Paper Bag Distribution",
     domain: "ENVIRONMENT",
-    images: [...Images.EcoCarryBag],
+    images: [...newImages.EcoCarryBag, ...Images.EcoCarryBag],
     reduced_images: [...ImagesReduced.EcoCarryBag],
     quote: `Hold the earth, in bags of worth.`,
     main: `"Small acts, big impact: Together, we make our world cleaner and greener!" This powerful sentiment captures the essence of the TCET NSS UNIT's Eco-Carry Drive project. While it might seem like a simple effort, the distribution of more than 2000 paper bags that are made by the volunteers themselves, in the community carried a profound message about the harm caused by plastic and the positive change that small actions can bring to our environment.
@@ -180,7 +179,7 @@ export const major_projects = [
     id: 20,
     project: "Raktdaan Se JeevanDaan : Blood Donation Camp",
     domain: "HEALTH",
-    images: [...Images.BloodDonation],
+    images: [...newImages.BloodDonation, ...Images.BloodDonation],
     reduced_images: [...ImagesReduced.BloodDonation],
     quote: `Be bold, donate gold - your life-saving blood, so untold.`,
     main: `The TCET NSS UNIT organises a significant Blood Donation Camp at the Thakur College of Engineering and Technology, Kandivali (E). The project aims to highlight the importance of regular blood donation, emphasising its crucial role in reducing mortality rates and fostering a collective sense of unity, compassion, and social responsibility.
@@ -220,7 +219,7 @@ export const major_projects = [
     id: 23,
     project: "Mahashivratri- Old Age Home Visit",
     domain: "SOCIETY",
-    images: [...Images.MahaShiv],
+    images: [...newImages.MahaShiv, ...Images.MahaShiv],
     reduced_images: [...ImagesReduced.MahaShiv],
     quote: `Every wrinkle tells a story.`,
     main: `The TCET NSS Unit collaborates with NGOs to organise visits to old age homes, uniting volunteers in a shared mission. Their simple aim is to bring joy to the elderly residents and alleviate feelings of loneliness. Through engaging activities like games, songs, and dance, volunteers create special moments that make the seniors' days brighter.
@@ -244,7 +243,7 @@ export const major_projects = [
     id: 25,
     project: "Rakhi Selling Drive",
     domain: "SOCIETY",
-    images: [...Images.RakhiSell],
+    images: [...newImages.RakhiSell, ...Images.RakhiSell],
     reduced_images: [...ImagesReduced.RakhiSell],
     quote: `Bamboo knots, connecting lives in lots.`,
     main: `TCET NSS Unit hosts Rakhi Selling Drive, spotlighting the beauty of cultural celebration and community support. The project extends beyond selling rakhis, it is a call for awareness and a step towards a brighter future for tribal women and underprivileged children. The unique aspect is that these rakhis are handcrafted by the very communities benefiting from the sales, embracing sustainable traditions and local empowerment.
@@ -293,7 +292,7 @@ export const major_projects = [
     id: 30,
     project: "Joy of Giving Week : Donation drive",
     domain: "SOCIETY",
-    images: [...Images.JoyGive],
+    images: [...newImages.JoyGive, ...Images.JoyGive],
     reduced_images: [...ImagesReduced.JoyGive],
     quote: `Give a little, change a lot.`,
     main: `The TCET NSS Unit organises a heartwarming "Joy of Giving Week" that transcends the boundaries of the college to reach remote villagers in need. Faculty, students, and staff enthusiastically participate, contributing a diverse array of items including toys, clothes, food packages, and books. 
@@ -306,7 +305,7 @@ export const major_projects = [
     id: 32,
     project: "(MU) Nasha Mukti rally",
     domain: "ENVIRONMENT",
-    images: [...Images.AddictRally],
+    images: [...newImages.AddictRally, ...Images.AddictRally],
     reduced_images: [...ImagesReduced.AddictRally],
     quote: `A collective journey towards a brighter, addiction free future.`,
     main: `The Nasha Mukti Rally, organised by the Mumbai University, unfolds at Azad Maidan in Churchgate, Mumbai. The volunteers, carrying posters and compelling slogans against tobacco, alcohol, and cigarettes, filled the bustling streets. Their vibrant chants resonate, capturing the attention of the people and conveying a powerful message promoting a healthier, addiction-free lifestyle.
@@ -318,7 +317,7 @@ export const major_projects = [
     id: 33,
     project: "(MU) Ganpati Visarjan",
     domain: "SOCIETY",
-    images: [...Images.Visarjan],
+    images: [...newImages.Visarjan, ...Images.Visarjan],
     reduced_images: [...ImagesReduced.Visarjan],
     quote: `In the waters of farewell, Ganpati's blessings linger.`,
     main: `The TCET NSS Unit conducts a Ganpati Visarjan Volunteering project, held at Thakur Village,Kandivali (E) on the 3rd, 5th, 7th and 11th day of Ganpati Visarjan. The primary objectives are to ensure the safe and smooth immersion of Ganpati idols, managing traffic and safety in the process.
@@ -357,7 +356,7 @@ export const major_projects = [
     id: 36,
     project: "MatDaan se YogDaan : Voter Id Registration",
     domain: "SOCIETY",
-    images: [...Images.MatDaan],
+    images: [...newImages.MatDaan, ...Images.MatDaan],
     reduced_images: [...ImagesReduced.MatDaan],
     quote: `A small card, a big voice - let every citizen be heard.`,
     main: `The TCET NSS Unit's project for registering voter IDs at Thakur College of Engineering and Technology in Kandivali (E) shows a strong commitment to getting people involved in their community and participating in the democratic process. The main goals were to make sure people understand why having a voter ID is important and to support a fair and democratic election system.
@@ -370,7 +369,7 @@ export const major_projects = [
     id: 37,
     project: "(MU) Gandhi Jayanti Bhajan Sandhya ",
     domain: "EDUCATION",
-    images: [...Images.Gandhijaynati],
+    images: [...newImages.Gandhijaynati, ...Images.Gandhijaynati],
     reduced_images: [...ImagesReduced.EcoCarryBag],
     quote: `Harmonising culture, echoing Gandhi's values.`,
     main: `TCET NSS volunteers experienced a delightful evening at the Bhajan Sandhya held at the Gateway of India, Mumbai. The atmosphere was filled with the melodious tunes of bhajans sung by special guest singers, creating a spiritual and cultural environment. The event showcased a variety of bhajans from different parts of India, highlighting the richness of our cultural heritage.
@@ -596,7 +595,7 @@ export const minor_project = [
   },
   {
     id: 205,
-    image: Images.NSSOrientation,
+    image: newImages.NSSOrientation,
     project: "NSS Orientation",
     domain: "EDUCATION",
     summary:
@@ -604,7 +603,7 @@ export const minor_project = [
   },
   {
     id: 206,
-    image: Images.NSSRecruitment,
+    image: newImages.NSSRecruitment,
     project: "NSS SE Recruitment",
     domain: "EDUCATION",
     summary:
@@ -926,7 +925,7 @@ export const minor_project = [
     id: 241,
     project: "15th August Independence Day Parade",
     domain: "SOCIETY",
-    image: Images.Independence,
+    image: newImages.Independence,
     quote: "Celebrating unity, embracing lessons.",
     summary: `TCET NSS Unit, as always, actively participated in the Independence Day parade. Starting with practice days earlier, volunteers identified the mistakes they were doing and rectified them, in order to perform nicely on Independence Day. Their objective was a flawless parade presentation. Volunteers, alongside other college committees, performed a marvellous parade, showcasing dedication and enthusiasm. The occasion not just marked Independence Day but also showed how TCET's NSS unit values learning and getting better. It was a celebration of freedom, with volunteers working together to improve and make the day special.`,
   },
@@ -934,7 +933,7 @@ export const minor_project = [
     id: 242,
     project: "26th January Republic Day",
     domain: "SOCIETY",
-    image: Images.Republic,
+    image: newImages.Republic,
     quote: "A flag of pride, a nation united.",
     summary: `The TCET NSS Unit actively joined the Republic Day flag hoisting tradition at Thakur College of Engineering and Technology. A substantial number of volunteers gathered to express reverence for the Indian flag during the ceremony. Following the flag hosting, Program Officers (POs) engaged in insightful discussions with volunteers, delving into the importance and objectives of NSS. The event concluded on a positive note with a lively photo session, where volunteers, council members, and POs came together to capture memorable moments of unity and participation.`,
   },

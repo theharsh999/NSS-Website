@@ -1,39 +1,40 @@
 import React from "react";
 import "../styles/team/cardcontainer.css";
-import Images from "../assets/team";
+// import Images from "../assets/team";
+import newImages from "../assets/team2025-2026";
 
 const CardContainer = () => {
   const cardContents = [
     {
-      name: "Aashi Kulkarni",
+      name: "Gandharvi Kalyankar",
       testament:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestias officia voluptas natus numquam recusandae laboriosam mollitia cum nam",
-      image: `${Images.Aashi}`,
+      image: `${newImages.Gandharvi}`,
       position: "Asst. Admin Head",
       quote: "Collective efforts yield triumph, unity prevails.",
     },
     {
-      name: "Udhay Singh",
+      name: "Ashutosh Pandey",
       testament:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestias officia voluptas natus numquam recusandae laboriosam mollitia cum nam",
-      image: `${Images.Udhay}`,
+      image: `${newImages.Ashutosh}`,
       position: "Asst. Admin Head",
       quote:
         "Enthusiastic spirit, navigating challenges with helpful guidance.",
     },
     {
-      name: "Saachi Desai",
+      name: "Dev Dubey",
       testament:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestias officia voluptas natus numquam recusandae laboriosam mollitia cum nam",
-      image: `${Images.Sachi}`,
+      image: `${newImages.Dev}`,
       position: "Public Relation",
       quote: "Approaching changes with eager, proactive enthusiasm.",
     },
     {
-      name: "Ved Vora",
+      name: "Sejal Gupta",
       testament:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestias officia voluptas natus numquam recusandae laboriosam mollitia cum nam",
-      image: `${Images.Ved}`,
+      image: `${newImages.sejal}`,
       position: "Website Manager",
       quote: "Helpful mindset and enthusiasm pave collective journeys",
     },

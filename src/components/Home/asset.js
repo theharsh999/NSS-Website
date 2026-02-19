@@ -1,10 +1,11 @@
 import HomeImages from "../../assets/home/index";
+import newHomeImages from "../../assets/home2025-2026/index";
 import HomeImagesReduced from "../../assets/home_reduced/index";
 import nss_logo from "../../assets/static_images/nss_logo.svg";
 
 export const objectiveText = [
   {
-    image: HomeImages.community,
+    image: newHomeImages.community,
     simple_image: HomeImagesReduced.community_simple,
     title: "Community Understanding",
     description:
@@ -68,7 +69,7 @@ export const achievementData = [
   },
   {
     title: "People Affected",
-    image: HomeImages.liveAffected,
+    image: newHomeImages.liveAffected,
     unit: "Lives",
   },
   {
@@ -78,28 +79,28 @@ export const achievementData = [
   },
   {
     title: "Social Hours",
-    image: HomeImages.treePlantation,
+    image: newHomeImages.treePlantation,
     unit: "Hours",
   },
 ];
 
 export const projectDescription = [
   {
-    image: HomeImages.bloodDonation,
+    image: newHomeImages.bloodDonation,
     id: 20,
     domain: "HEALTH",
     title: "Blood Donation Camp",
     description: `The TCET NSS UNIT organised an impactful Blood Donation Camp at Thakur College of Engineering and Technology, Kandivali(E). 100+ donors actively participate in the enthusiastic volunteers in various roles. The project aims to create awareness about regular blood donation, educate on timely access, and foster a sense of unity and social responsibility. Feedback highlights the effective communication and active participation, emphasising the positive impact on society's well-being`,
   },
   {
-    image: HomeImages.proTreePlantation,
+    image: newHomeImages.proTreePlantation,
     domain: "ENVIRONMENT",
     id: 14,
     title: "Tree Plantation Drive",
     description: `The TCET NSS Unit conducts an annual Tree Plantation Drive, recognizing trees as crucial and an important element for the environment. This initiative emphasises the importance of trees in maintaining a healthier planet. Volunteers actively participate, contributing to a greener future and fostering a collective commitment to environmental well-being.`,
   },
   {
-    image: HomeImages.voterId,
+    image: newHomeImages.voterId,
     domain: "SOCIETY",
     id: 36,
     title: "Voter Id Registration",
@@ -126,7 +127,7 @@ export const testimonial_cards = [
   {
     name: "Mr. Om Pitale",
     testament: `JAI HIND ! Toh chaliye is safar ko shuru kiya jaye...✈️ Hello, Namaste, Vanakam... First day recruitment kajra re kajra se leke namak khane Tak pushups se leke twerk tak yeh hoti hai recruitment jaise socha tha waise bilkul nahi thi excitement level jordar jabardast ... Us time aaise laga tha ki ha sachi Mai jaha ha rahe hai wo destination se jyada humare sath jo log aane wale hai unke sath Bitaye hue pal kafi jyada important hai. Recruitment ke baad aya wo din jab selected list aane wali thi, i was the one who was sure ki ho jayenge pakka... Machaye jo the itna.. group mai aag lagadi thi kuch gine chune dosto ke sath milkar. Aur select ho gaye.😎😎 😁Khushi( happiness) ka thikana nahi tha but usse jyada dar bhi tha kyuki first year mai humne nss ke Council dekhe the ki bhai kya hi dar aur khauf hai inka.. coming to our council they were strict, rude, harsh but they were the ones who made us realize the comradeship, beauty of the nss family.. the Motto NOT ME BUT YOU wali jo feeling hai inke rehete hi aayi hai humme. I am really grateful to them to make us such selfless volunteers.. Nss ke first year se leke abhi tak unka khauf hai.. but they were and will be best guides. Talking about the experience during projects.. project ka message aya aur hum sab excite hote the ki yaaa ab aya time dalne ka .. project mai feedback ke liye mera hath hamesha upar rehta tha. Kya hi maje kiye hai.. Fast forward to becoming Council 😎 Humare council ko dekhne ke baad kaafi Kam log aaise the ki jinko Council nahi banna tha.. Mai aur Anubhav ne ek sath council ka form bhara.. interview hua pehele TE ka then council ka then PO's ka.. as expected tho nahi tha but acha gaya tha. Results ka wait karte hua mai aur tamam SE ke volunteers... Aur wo din aya jab secret meeting leke selected council ko invite kiya gaya.. mai meet mai gaya saw Rohit bidu, Khushi (the bhav khane wali JC), Praveer (first yr ka dost)`,
-        image: HomeImages.ExCouncil,
+    image: HomeImages.ExCouncil,
     position: "Ex Council",
     period: "(2020 - 22)",
   },

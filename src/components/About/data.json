@@ -13,6 +13,7 @@
     "tableTitle": "NSS VOLUNTEERS",
     "tableColumn": ["Sr. No.", "Academic Year", "Enrolled", "Benefitted"],
     "data": [
+      { "year": "2024-25", "volunteers": 200, "benefited": 137 },
       { "year": "2023-24", "volunteers": 200, "benefited": 172 },
       { "year": "2022-23", "volunteers": 200, "benefited": 160 },
       { "year": "2021-22", "volunteers": 150, "benefited": 139 },
@@ -21,7 +22,7 @@
       { "year": "2018-19", "volunteers": 150, "benefited": 142 },
       { "year": "2017-18", "volunteers": 150, "benefited": 136 }
     ],
-    "footer": ["Total", "", 1150, 1030]
+    "footer": ["Total", "", 1550, 1167]
   },
   "section5": {
     "title": "Our Magazine",

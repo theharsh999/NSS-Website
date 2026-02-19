@@ -5,149 +5,182 @@ import Modal from "../components/TeamModal";
 import Linkedin from "../assets/static_images/linkedin.svg";
 import Facebook from "../assets/static_images/facebook.svg";
 import Instagram from "../assets/static_images/instagram.svg";
-import Images from "../assets/team/index";
+// import Images from "../assets/team/index";
+import newImages from "../assets/team2025-2026/index";
 
 const cards = [
   {
-    url: `${Images.Atharva}`,
+    url: `${newImages.Pragati}`,
     quote: "Listen with curiosity. Speak with honesty. Act with integrity",
     details: {
-      name: "Atharva Pardeshi",
+      name: "Pragati Jha",
       desi: "Student Leader",
       social: {
-        instagram: "https://www.instagram.com/.atharva731.",
-        linkedin: "https://www.linkedin.com/in/atharva-pardeshi-a54b9323a",
+        instagram:
+          "https://www.instagram.com/_ppragatiii?igsh=ZW9oYXE4d2p5Ym8z.",
+        linkedin:
+          "https://www.linkedin.com/in/pragati-jha-b62626322?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         twitter: "",
       },
       about:
-        "Atharva showcases an exceptional ability to inspire and guide his peers toward shared goals. Through effective communication skills he fosters a culture of responsibility and accountability among students, building positive connections within the community. He cares about and values what others think, always listening to their ideas and concerns. His commitment to excellence significantly contributes to a work environment marked by harmony, consistently lifting the spirits of those under his leadership.",
+        "Ms. Pragati Jha embodies leadership through her hard work, sharp intellect, and remarkable ability to communicate with clarity and confidence. A natural motivator, she consistently encourages her peers to pursue the right path and become better versions of themselves. Her honesty shines through in the way she corrects and guides others, ensuring growth while maintaining warmth and understanding. Though firm when needed, her sweet and approachable nature makes everyone feel valued and supported. With her balance of kindness, strength, and responsibility, Pragati continues to uplift and positively influence the team.",
     },
     id: 1,
   },
   {
-    url: `${Images.Ruchika}`,
+    url: `${newImages.Raj}`,
     quote:
       "Leadership is not about being in charge. It's about taking care of those in your charge.",
 
     details: {
-      name: "Ruchika singh",
+      name: "Rajkumar Yadav",
       desi: "Student Leader",
       social: {
-        instagram: "https://www.instagram.com/ruchikasingh.2511",
-        linkedin: "https://www.linkedin.com/in/tanay-agarval",
+        instagram:
+          "https://www.instagram.com/rajyadav_05?igsh=MW5wdWdxdHh3MDloNA==",
+        linkedin:
+          "https://www.linkedin.com/in/rajkumar-yadav-03a465316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
       about:
-        "Ruchika demonstrates empathy, resilience, and approachability and can take everyone around uphill; one who can amplify our effect and create a positive change to contribute to the betterment of our community. She exhibits effective communication with her associates, subordinates and seniors. She has consistently shown an unwavering commitment to fostering positive change, inclusivity, and collaboration. She strives to and has effectively created an environment where every volunteer feels supported and heard.",
+        "Mr. Rajkumar Yadav is known for his gentle nature, supportive attitude, and sincere commitment to every task he takes up. He never scolds without reason, and if someone from another council reprimands his team, he is the first to step in, guide, and calm the situation with maturity. His creativity shines through in every activity he contributes to, and his talent in dance and acting adds a lively spark to the team. With dedication, patience, and a positive spirit, Rajkumar continues to inspire those around him and lead with grace and confidence.",
     },
     id: 2,
   },
   {
-    url: `${Images.Satyam}`,
+    url: `${newImages.Shweta}`,
     quote:
       "A great person attracts great people and knows how to hold them together",
     details: {
-      name: "Satyam Rudrakanthwar",
+      name: "Shweta Yadav",
       desi: "Student Leader",
       social: {
-        instagram: "https://www.instagram.com/r.satyam78",
-        linkedin: "https://www.linkedin.com/in/satyam-rudrakanthwar-a89219221",
+        instagram: "https://www.instagram.com/cantfindrae/",
+        linkedin: "",
         twitter: "",
       },
       about:
-        "Satyam is a dedicated individual recognized for his inclusive and responsible nature. His remarkable ability to inspire peers has cultivated a robust culture of social responsibility within the team. As a creative wizard, he introduces innovation to his leadership, making a lasting impact beyond the immediate group. His commitment to excellence and creative problem-solving positions him as a valuable asset.",
+        "Ms. Shweta Yadav is known for her supportive nature, strong commitment, and ability to motivate every volunteer with positivity. She always encourages the team to give their best and adds fun moments that make the journey enjoyable for everyone. Whether it’s explaining tasks with clarity or guiding volunteers patiently, she ensures no one feels left behind. Her seriousness toward NSS reflects her sense of responsibility and dedication, making her a reliable and inspiring presence within the unit.",
     },
     id: 3,
   },
 
   {
-    url: `${Images.Harsh}`,
+    url: `${newImages.Adarsh}`,
     quote:
       "If your actions inspire others to dream more, learn more, do more and becomemore, you are a leader",
 
     details: {
-      name: "Harsh Mishra",
+      name: "Adarsh Singh",
       desi: "Admin Head",
       social: {
-        instagram: "https://www.instagram.com/harshhhh.5",
-        linkedin: "https://www.linkedin.com/in/harshhmishraa",
+        instagram:
+          "https://www.instagram.com/adarsh_041?igsh=MWV0cm1yMzFsd3FmeQ==",
+        linkedin:
+          "https://www.linkedin.com/in/adarsh-singh-41b223321?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         twitter: "",
       },
       about:
-        "Harsh embodies a unique mix of creativity, leadership, and resilience, tackling every challenge withunwavering commitment. He enjoys exploring new opportunities and achieves results with unmatched passion, thanks to his keen attention to detail and ability to navigate complexities effortlessly. Hisapproach to problem-solving showcases patience, determination, and hard work, creating a winning formula for success. As a natural leader and enthusiastic explorer, he moves forward, ensuring not only completion but mastery of every task within the specified time, showing incredible dedication.",
+        "Mr. Adarsh Singh stands out for his composed nature, sharp focus, and unwavering commitment to perfection. His warm smile creates a positive atmosphere, yet his firm approach ensures that no mistakes are overlooked. With a strong sense of responsibility, he guides the team with clarity and discipline, making sure every task is carried out with precision. His ability to balance kindness with firmness brings stability and direction to the unit, helping everyone grow and perform their best.",
     },
     id: 4,
   },
   {
-    url: `${Images.Ruchi}`,
+    url: `${newImages.Krishna}`,
     quote: "We come nearest to the great when we are great in humility.",
 
     details: {
-      name: "Ruchi Yadav",
+      name: "Krishna Kulkarni",
       desi: "Admin Head",
       social: {
-        instagram: "https://www.instagram.com/ru.chi_y",
-        linkedin: "https://www.linkedin.com/in/ruchi-yadav-810506237",
+        instagram: "https://www.instagram.com/krishnakulkarnii/",
+        linkedin: "https://www.linkedin.com/in/krishnakulkarni28",
         twitter: "",
       },
       about:
-        "Ruchi is a confident, fierce, and headstrong individual wrapped in contagious optimism. Her clear and effective communication sets the foundation for firm decisions, emphasizing actions over mere words. A keen observer and inquisitive soul, she skillfully manages her time to produce outcomes with a lasting influence. As a patient and persuasive team player, she cultivates a positive and collaborative atmosphere, bringing out the best in others through effective communication and understanding. Her optimism acts as the driving force to confront challenges with an unwavering can-do attitude, facing adversities head-on with resilience and determination",
+        "Mr. Krishna Kulkarni is known for his strict, focused, and no-nonsense approach toward responsibility. Deeply serious about NSS, he ensures that every task is completed with accuracy and dedication. If there is even the slightest mistake, he does not hesitate to point it out, pushing everyone to maintain high standards. His firm guidance, sharp attention to detail, and unwavering discipline create a strong foundation for the team. Through his seriousness and commitment, Krishna motivates everyone to stay alert, improve constantly, and give their absolute best.",
     },
     id: 5,
   },
   {
-    url: `${Images.Gourav}`,
+    url: `${newImages.Omwardhan}`,
     quote:
       "Leadership is not just about making decisions; it's about making the right decisions strategically",
 
     details: {
-      name: "Gourav singh",
-      desi: "Project Head",
+      name: "Omwardhan Jha",
+      desi: "Admin Head",
       social: {
-        instagram: "https://www.instagram.com/_gourav_singh_005",
-        linkedin: "https://www.linkedin.com/in/gourav-singh-39577624a",
+        instagram:
+          "https://www.instagram.com/nowayom?igsh=MTRwMTdxZXRxNTVweg==",
+        linkedin:
+          "https://www.linkedin.com/in/omwardhanjha?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         twitter: "",
       },
       about:
-        "Transforming our initial concerns into strategic foresight and smart planning, Gourav skillfully organizes all parts of the current mission. With proactive and effective leadership, he turns challenges into chances for the team's growth, showing not only persistence but also a strategic mindset that goes beyond current issues. His careful attention to detail and advanced understanding of the project set the stage for success. Instead of just overseeing projects, he makes successful plans by foreseeing issues and paving the way for clever solutions. His strategy aims to go beyond expectations, making sure every project he leads is not only finished but also a symbol of smart thinking and skill. He is committed to achieving the best results.",
+        "Mr. Omwardhan Jha brings a unique blend of creativity, confidence, and sharp administrative skills to the team. Known for his excellent acting abilities and strong presence, he uses his expressive nature to communicate clearly and effectively. Whether setting up NSS dramas or coordinating tasks, he ensures everything is done with precision and order. His tall, commanding personality helps him lead with confidence, while his attention to detail ensures there is no room for mistakes. Dedicated, disciplined, and dependable, Omwardhan plays a key role in maintaining structure and smooth functioning within the unit.",
     },
     id: 6,
   },
   {
-    url: `${Images.Tanay}`,
+    url: `${newImages.Kshitij}`,
     quote:
       "Life is a collection of moments; don't just count them, make them count",
 
     details: {
-      name: "Tanay Agrawal",
+      name: "Kshitij Dubey",
       desi: "Project Head",
       social: {
-        instagram: "https://www.instagram.com/_tanay_agarwal",
-        linkedin: "https://www.linkedin.com/in/tanay-agarval",
+        instagram:
+          "https://www.instagram.com/kshitijj__20?igsh=OTlyamI3Y2RyYXo0",
+        linkedin:
+          "https://www.linkedin.com/in/kshitij-dubey-283531291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
       about:
-        "Tanay is our go-to multitasking maestro, who seamlessly weaves through responsibilities, transforming daily tasks into a captivating symphony. His approach to challenges isn't just problem-solving; it's an opportunity to showcase his unparalleled teamwork spirit, turning every collaboration into a masterpiece. He is a conductor of success, directing a well-coordinated dance of roles and responsibilities with effortless mastery. In the face of challenges, he doesn't see roadblocks but pathways to new possibilities, infusing every project with a burst of creative energy. As a compass for team, Tanay guides us with direction, purpose, and a touch of adventure. His leadership isn't just about navigating; it's about charting a course that elevates to new heights.",
+        "Mr. Kshitij Dubey is known for his quiet confidence, composed nature, and thoughtful approach to handling responsibilities. He speaks less, but whenever he does, it carries clarity and purpose. His steady presence during projects brings balance to the team, ensuring tasks move smoothly without unnecessary chaos. Kshitij prefers working sincerely behind the scenes, supporting the unit with reliability, focus, and a calm mindset that keeps everyone grounded.",
     },
     id: 7,
   },
   {
-    url: `${Images.Nandkumar}`,
+    url: `${newImages.Mangilal}`,
     quote:
       "It's not about the resources you have available. It's about the resourcefulness you have within you.",
 
     details: {
-      name: "Nandkumar Pandey",
-      desi: "Finance Head",
+      name: "Mangilal Choudhary",
+      desi: "Project Head",
       social: {
-        instagram: "https://www.instagram.com/n_pandey_15",
-        linkedin: "https://www.linkedin.com/in/nandkumar-pandey-06baa523a",
+        instagram:
+          "https://www.instagram.com/mangi_bhai01?igsh=MXF4YnliZ2syeXQ2ZA==",
+        linkedin:
+          "https://www.linkedin.com/in/mangilalchoudhary?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         twitter: "",
       },
       about:
-        "In the mix of finance and strategy, Nandkumar stands out as a strong, resourceful leader essential for our team's success. His intelligence, know-how, and ability to work well with others encourage teamwork. He is skilled at managing things, ensuring we use our resources wisely for our plans. His careful analysis of problems, combined with his resourcefulness, allows him to swiftly del well-though solutions, making him a key player in our ongoing success in the changing world.",
+        "Mr. Mangilal Choudhary is known for his humble presence, cheerful nature, and dependable spirit. Though he may appear fun-loving at first, he maintains complete professionalism with the team. His caring attitude shines through in the way he often steps in to shield volunteers from unnecessary scolding, ensuring they feel supported and confident. With his calm approach and quiet strength, he contributes to the smooth execution of projects while fostering a positive, safe environment for everyone involved.",
     },
     id: 8,
+  },
+  {
+    url: `${newImages.Prashanth}`,
+    quote:
+      "It's not about the resources you have available. It's about the resourcefulness you have within you.",
+
+    details: {
+      name: "Prashanth Swamy",
+      desi: "Finance Head",
+      social: {
+        instagram:
+          "https://www.instagram.com/x_.prashanth?igsh=MWR3N205cHh4MG5zNA==",
+        linkedin:
+          "https://www.linkedin.com/in/prashanth-swamy-b69698339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        twitter: "",
+      },
+      about:
+        "Mr. Prashanth Swamy excels in managing the finances of our NSS Unit with remarkable precision and control. Known for his strong management skills, he ensures every resource is used wisely and every plan is executed smoothly. While his fun-loving nature and humour bring light-hearted moments to the team, he becomes exceptionally focused when it comes to work. His ability to guide juniors firmly—correcting mistakes and ensuring discipline—strengthens the team’s efficiency and accountability. With a perfect blend of seriousness, leadership, and approachability, Prashant plays a key role in maintaining the financial stability and smooth functioning of our unit.",
+    },
+    id: 9,
   },
 ];
 

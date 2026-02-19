@@ -12,7 +12,7 @@ export default function Achievements() {
   const [counters, setCounters] = useState([0, 0, 0, 0]);
 
   useEffect(() => {
-    const finalValues = [18, 196000, 1450, 600 * 80];
+    const finalValues = [20, 196000, 1850, 600 * 80];
     const increments = [1, 3920, 600, 3000];
     if (!isVisible) return;
 
@@ -23,7 +23,7 @@ export default function Achievements() {
             const newCounters = [...prevCounters];
             newCounters[index] = Math.min(
               prevCounters[index] + increments[index],
-              finalValues[index]
+              finalValues[index],
             );
             return newCounters;
           }
@@ -58,7 +58,9 @@ export default function Achievements() {
             <img src={image} alt={title} />
             <div className="incrementer make-flex">
               <div className="incrementer">
-                <p className="counter-incrementer">{counters[index].toLocaleString()}</p>
+                <p className="counter-incrementer">
+                  {counters[index].toLocaleString()}
+                </p>
               </div>
               <p>{unit}</p>
             </div>
