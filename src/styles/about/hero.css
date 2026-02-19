@@ -14,13 +14,13 @@
     flex-shrink: 0;
     width: 100vw;
     height: 100vh;
-    /* background-image: url("../../assets/about/council2024.png"); */
     background-size: cover;
     background-position: bottom;
     position: relative;
 }
 .council:nth-child(1) {
-    background-image: url("../../assets/about/team_2024.webp");
+    background-image: url("../../assets/about/AboutUs.jpeg");
+    /* background-image: url("../../assets/about/team_2024.webp"); */
 }
 
 .council-text {

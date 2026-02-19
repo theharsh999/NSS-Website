@@ -31,15 +31,21 @@
     font-weight: var(--p-font-weight);
 }
 
+/* ========================= */
+/* GRID LAYOUT (3 + 2) */
+/* ========================= */
+
 .magazine-page-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    align-items: center;
-    justify-content: space-between;
+    justify-items: start;   /* Left aligned second row */
 }
 
+/* Magazine Card */
 .magazine-image {
-    width: 30%;
+    width: 100%;
+    max-width: 300px;
     box-shadow: 2px 2px 20px #00000077;
     transition: 500ms ease-in;
     cursor: pointer;
@@ -58,32 +64,44 @@
     scale: 1.04;
 }
 
-@media screen and (max-width: 768px) {
-    .magazine-container p {
-        text-align: justify;
-    }
+/* ========================= */
+/* RESPONSIVE SECTION */
+/* ========================= */
 
+/* Tablet */
+@media screen and (max-width: 992px) {
+    .magazine-page-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
 }
+
+/* Mobile */
 @media screen and (max-width: 525px) {
     .magazine-page-container {
-        flex-direction: column;
-        gap: 2rem;
-        align-items: center;
-        justify-content: space-between;
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
+
     .magazine-image {
-        width: 65%;
+        max-width: 65%;
     }
+
     .magazine-container {
         gap: 1rem;
     }
+
     .magazine-container > p {
         font-size: .9rem;
+        text-align: justify;
     }
+
     .magazine-container > h2 {
         font-size: 2.5rem;
     }
 }
+
+/* Extra Small */
 @media screen and (max-width: 324px) {
     .magazine-container > h2 {
         font-size: 2rem;

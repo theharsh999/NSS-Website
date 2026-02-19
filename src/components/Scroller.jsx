@@ -3,7 +3,6 @@ import React, { useRef, useState, useEffect } from "react";
 import "../styles/team/scroller.css";
 import Modal from "../components/TeamModal";
 import Linkedin from "../assets/static_images/linkedin.svg";
-import Facebook from "../assets/static_images/facebook.svg";
 import Instagram from "../assets/static_images/instagram.svg";
 // import Images from "../assets/team/index";
 import newImages from "../assets/team2025-2026/index";
@@ -20,7 +19,6 @@ const cards = [
           "https://www.instagram.com/_ppragatiii?igsh=ZW9oYXE4d2p5Ym8z.",
         linkedin:
           "https://www.linkedin.com/in/pragati-jha-b62626322?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-        twitter: "",
       },
       about:
         "Ms. Pragati Jha embodies leadership through her hard work, sharp intellect, and remarkable ability to communicate with clarity and confidence. A natural motivator, she consistently encourages her peers to pursue the right path and become better versions of themselves. Her honesty shines through in the way she corrects and guides others, ensuring growth while maintaining warmth and understanding. Though firm when needed, her sweet and approachable nature makes everyone feel valued and supported. With her balance of kindness, strength, and responsibility, Pragati continues to uplift and positively influence the team.",
@@ -40,7 +38,6 @@ const cards = [
           "https://www.instagram.com/rajyadav_05?igsh=MW5wdWdxdHh3MDloNA==",
         linkedin:
           "https://www.linkedin.com/in/rajkumar-yadav-03a465316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        twitter: "",
       },
       about:
         "Mr. Rajkumar Yadav is known for his gentle nature, supportive attitude, and sincere commitment to every task he takes up. He never scolds without reason, and if someone from another council reprimands his team, he is the first to step in, guide, and calm the situation with maturity. His creativity shines through in every activity he contributes to, and his talent in dance and acting adds a lively spark to the team. With dedication, patience, and a positive spirit, Rajkumar continues to inspire those around him and lead with grace and confidence.",
@@ -57,7 +54,6 @@ const cards = [
       social: {
         instagram: "https://www.instagram.com/cantfindrae/",
         linkedin: "",
-        twitter: "",
       },
       about:
         "Ms. Shweta Yadav is known for her supportive nature, strong commitment, and ability to motivate every volunteer with positivity. She always encourages the team to give their best and adds fun moments that make the journey enjoyable for everyone. Whether it’s explaining tasks with clarity or guiding volunteers patiently, she ensures no one feels left behind. Her seriousness toward NSS reflects her sense of responsibility and dedication, making her a reliable and inspiring presence within the unit.",
@@ -78,7 +74,6 @@ const cards = [
           "https://www.instagram.com/adarsh_041?igsh=MWV0cm1yMzFsd3FmeQ==",
         linkedin:
           "https://www.linkedin.com/in/adarsh-singh-41b223321?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-        twitter: "",
       },
       about:
         "Mr. Adarsh Singh stands out for his composed nature, sharp focus, and unwavering commitment to perfection. His warm smile creates a positive atmosphere, yet his firm approach ensures that no mistakes are overlooked. With a strong sense of responsibility, he guides the team with clarity and discipline, making sure every task is carried out with precision. His ability to balance kindness with firmness brings stability and direction to the unit, helping everyone grow and perform their best.",
@@ -95,7 +90,6 @@ const cards = [
       social: {
         instagram: "https://www.instagram.com/krishnakulkarnii/",
         linkedin: "https://www.linkedin.com/in/krishnakulkarni28",
-        twitter: "",
       },
       about:
         "Mr. Krishna Kulkarni is known for his strict, focused, and no-nonsense approach toward responsibility. Deeply serious about NSS, he ensures that every task is completed with accuracy and dedication. If there is even the slightest mistake, he does not hesitate to point it out, pushing everyone to maintain high standards. His firm guidance, sharp attention to detail, and unwavering discipline create a strong foundation for the team. Through his seriousness and commitment, Krishna motivates everyone to stay alert, improve constantly, and give their absolute best.",
@@ -115,7 +109,6 @@ const cards = [
           "https://www.instagram.com/nowayom?igsh=MTRwMTdxZXRxNTVweg==",
         linkedin:
           "https://www.linkedin.com/in/omwardhanjha?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-        twitter: "",
       },
       about:
         "Mr. Omwardhan Jha brings a unique blend of creativity, confidence, and sharp administrative skills to the team. Known for his excellent acting abilities and strong presence, he uses his expressive nature to communicate clearly and effectively. Whether setting up NSS dramas or coordinating tasks, he ensures everything is done with precision and order. His tall, commanding personality helps him lead with confidence, while his attention to detail ensures there is no room for mistakes. Dedicated, disciplined, and dependable, Omwardhan plays a key role in maintaining structure and smooth functioning within the unit.",
@@ -135,7 +128,6 @@ const cards = [
           "https://www.instagram.com/kshitijj__20?igsh=OTlyamI3Y2RyYXo0",
         linkedin:
           "https://www.linkedin.com/in/kshitij-dubey-283531291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        twitter: "",
       },
       about:
         "Mr. Kshitij Dubey is known for his quiet confidence, composed nature, and thoughtful approach to handling responsibilities. He speaks less, but whenever he does, it carries clarity and purpose. His steady presence during projects brings balance to the team, ensuring tasks move smoothly without unnecessary chaos. Kshitij prefers working sincerely behind the scenes, supporting the unit with reliability, focus, and a calm mindset that keeps everyone grounded.",
@@ -155,7 +147,6 @@ const cards = [
           "https://www.instagram.com/mangi_bhai01?igsh=MXF4YnliZ2syeXQ2ZA==",
         linkedin:
           "https://www.linkedin.com/in/mangilalchoudhary?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-        twitter: "",
       },
       about:
         "Mr. Mangilal Choudhary is known for his humble presence, cheerful nature, and dependable spirit. Though he may appear fun-loving at first, he maintains complete professionalism with the team. His caring attitude shines through in the way he often steps in to shield volunteers from unnecessary scolding, ensuring they feel supported and confident. With his calm approach and quiet strength, he contributes to the smooth execution of projects while fostering a positive, safe environment for everyone involved.",
@@ -175,7 +166,6 @@ const cards = [
           "https://www.instagram.com/x_.prashanth?igsh=MWR3N205cHh4MG5zNA==",
         linkedin:
           "https://www.linkedin.com/in/prashanth-swamy-b69698339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        twitter: "",
       },
       about:
         "Mr. Prashanth Swamy excels in managing the finances of our NSS Unit with remarkable precision and control. Known for his strong management skills, he ensures every resource is used wisely and every plan is executed smoothly. While his fun-loving nature and humour bring light-hearted moments to the team, he becomes exceptionally focused when it comes to work. His ability to guide juniors firmly—correcting mistakes and ensuring discipline—strengthens the team’s efficiency and accountability. With a perfect blend of seriousness, leadership, and approachability, Prashant plays a key role in maintaining the financial stability and smooth functioning of our unit.",
@@ -226,15 +216,6 @@ const Scroller = () => {
                 style={{ cursor: "pointer" }}
               >
                 <img src={Linkedin} alt="linkedin" />
-              </div>
-              <div
-                onClick={() =>
-                  window.open(selectedCardDetails.details.social.twitter)
-                }
-                className="link"
-                style={{ cursor: "pointer" }}
-              >
-                <img src={Facebook} alt="facebook" />
               </div>
             </div>
           </div>
