@@ -11,7 +11,7 @@ const CardList = ({ imageCards }) => {
         setTimeout(() => undefined, 500);
         return (
           <div className="image-card">
-            <Image
+            <Image 
               key={index}
               simple_image={card.ReducedImg}
               HD_image={card.ProjectImg}
@@ -98,6 +98,182 @@ const ImageGallery = () => {
     {
       ProjectImg: Projects.project198,
       ReducedImg: Projects.project198,
+    },
+    {
+      ProjectImg: Projects.project199,
+      ReducedImg: Projects.project199,
+    },
+    {
+      ProjectImg: Projects.project200,
+      ReducedImg: Projects.project200,
+    },
+    {
+      ProjectImg: Projects.project201,
+      ReducedImg: Projects.project201,
+    },
+    {
+      ProjectImg: Projects.project202,
+      ReducedImg: Projects.project202,
+    },
+    {
+      ProjectImg: Projects.project203,
+      ReducedImg: Projects.project203,
+    },
+    {
+      ProjectImg: Projects.project204,
+      ReducedImg: Projects.project204,
+    },
+    {
+      ProjectImg: Projects.project205,
+      ReducedImg: Projects.project205,
+    },
+    {
+      ProjectImg: Projects.project206,
+      ReducedImg: Projects.project206,
+    },
+    {
+      ProjectImg: Projects.project207,
+      ReducedImg: Projects.project207,
+    },
+    {
+      ProjectImg: Projects.project208,
+      ReducedImg: Projects.project208,
+    },
+    {
+      ProjectImg: Projects.project209,
+      ReducedImg: Projects.project209,
+    },
+    {
+      ProjectImg: Projects.project210,
+      ReducedImg: Projects.project210,
+    },
+    {
+      ProjectImg: Projects.project211,
+      ReducedImg: Projects.project211,
+    },
+    {
+      ProjectImg: Projects.project212,
+      ReducedImg: Projects.project212,
+    },
+    {
+      ProjectImg: Projects.project213,
+      ReducedImg: Projects.project213,
+    },
+    {
+      ProjectImg: Projects.project214,
+      ReducedImg: Projects.project214,
+    },
+    {
+      ProjectImg: Projects.project215,
+      ReducedImg: Projects.project215,
+    },
+    {
+      ProjectImg: Projects.project216,
+      ReducedImg: Projects.project216,
+    },
+    {
+      ProjectImg: Projects.project217,
+      ReducedImg: Projects.project217,
+    },
+    {
+      ProjectImg: Projects.project218,
+      ReducedImg: Projects.project218,
+    },
+    {
+      ProjectImg: Projects.project219,
+      ReducedImg: Projects.project219,
+    },
+    {
+      ProjectImg: Projects.project220,
+      ReducedImg: Projects.project220,
+    },
+    {
+      ProjectImg: Projects.project221,
+      ReducedImg: Projects.project221,
+    },
+    {
+      ProjectImg: Projects.project222,
+      ReducedImg: Projects.project222,
+    },
+    {
+      ProjectImg: Projects.project223,
+      ReducedImg: Projects.project223,
+    },
+        {
+      ProjectImg: Projects.project224,
+      ReducedImg: Projects.project224,
+    },
+    {
+      ProjectImg: Projects.project225,
+      ReducedImg: Projects.project225,
+    },
+    {
+      ProjectImg: Projects.project226,
+      ReducedImg: Projects.project226,
+    },
+    {
+      ProjectImg: Projects.project227,
+      ReducedImg: Projects.project227,
+    },
+        {
+      ProjectImg: Projects.project228,
+      ReducedImg: Projects.project228,
+    },
+    {
+      ProjectImg: Projects.project229,
+      ReducedImg: Projects.project229,
+    },
+    {
+      ProjectImg: Projects.project230,
+      ReducedImg: Projects.project230,
+    },
+    {
+      ProjectImg: Projects.project231,
+      ReducedImg: Projects.project231,
+    },
+    {
+      ProjectImg: Projects.project232,
+      ReducedImg: Projects.project232,
+    },
+    {
+      ProjectImg: Projects.project233,
+      ReducedImg: Projects.project233,
+    },
+    {
+      ProjectImg: Projects.project234,
+      ReducedImg: Projects.project234,
+    },
+        {
+      ProjectImg: Projects.project235,
+      ReducedImg: Projects.project235,
+    },
+    {
+      ProjectImg: Projects.project236,
+      ReducedImg: Projects.project236,
+    },
+    {
+      ProjectImg: Projects.project237,
+      ReducedImg: Projects.project237,
+    },
+    {
+      ProjectImg: Projects.project238,
+      ReducedImg: Projects.project238,
+    },
+    {
+      ProjectImg: Projects.project239,
+      ReducedImg: Projects.project239,
+    },
+    {
+      ProjectImg: Projects.project240,
+      ReducedImg: Projects.project240,
+    },
+    {
+      ProjectImg: Projects.project241,
+      ReducedImg: Projects.project241,
+    },
+    {
+      ProjectImg: Projects.project242,
+      ReducedImg: Projects.project242,
     },
     {
       ProjectImg: Projects.project1,
@@ -782,7 +958,7 @@ const ImageGallery = () => {
     },
     {
       ProjectImg: Projects.project171,
-      ReducedImg: ReducedProjects.project_reduced167,
+      ReducedImg: Projects.project171,
     },
     {
       ProjectImg: Projects.project172,

@@ -508,16 +508,16 @@ export const major_projects = [
     summary:
       "The STEM workshop, in collaboration with IEEE Bombay section, conducted a project focusing on spreading awareness about health and hygiene among children in the Saiwan village. The workshop included skits to raise awareness about the importance of millets for health, clean water issues, water conservation, and rainwater harvesting. Practical demonstrations on water purification techniques were showcased, including the distribution of protein bars, colours, and sketch pens, along with gifting a RO Kent system to the school.",
   },
-  {
-    id: 49,
-    project: "My Bharat Portal Registration",
-    images: [],
-    reduced_images: [],
-    domain: "EDUCATION, SOCIETY",
-    quote: "Empowering youth through opportunities, service, and nation-building.",
-    main: "The MyBharat Portal registration session was conducted with the objective of familiarising volunteers with the MyBharat platform and its wide range of opportunities for personal, social, and professional development. During the session, volunteers were guided through the registration process and introduced to the key features of the portal, which serves as a national platform connecting youth with internships, volunteering opportunities, skill development programmes, and community-driven initiatives.\n\nThe session emphasised the importance of active youth participation in nation-building and social service. Volunteers gained clarity on how the portal enables individuals to contribute meaningfully to society while simultaneously enhancing their skills and career prospects. Through interactive guidance and hands-on registration support, participants were encouraged to explore various domains aligned with their interests and aspirations.\n\nBy the end of the session, all volunteers had successfully registered on the MyBharat Portal and developed a clear understanding of how to leverage the platform for long-term growth. The initiative laid a strong foundation for responsible citizenship, empowering volunteers to take informed steps toward social responsibility, community engagement, and professional advancement.",
-    summary: "The MyBharat Portal registration session provided volunteers with a comprehensive introduction to the platform, highlighting the various opportunities available for personal growth, social contribution, and career advancement. By registering on the portal, volunteers gained valuable insights into its features and took essential steps toward becoming actively engaged in meaningful internships and community service projects, setting the foundation for both social responsibility and professional development.",
-  },
+  // {
+  //   id: 49,
+  //   project: "My Bharat Portal Registration",
+  //   images: [],
+  //   reduced_images: [],
+  //   domain: "EDUCATION, SOCIETY",
+  //   quote: "Empowering youth through opportunities, service, and nation-building.",
+  //   main: "The MyBharat Portal registration session was conducted with the objective of familiarising volunteers with the MyBharat platform and its wide range of opportunities for personal, social, and professional development. During the session, volunteers were guided through the registration process and introduced to the key features of the portal, which serves as a national platform connecting youth with internships, volunteering opportunities, skill development programmes, and community-driven initiatives.\n\nThe session emphasised the importance of active youth participation in nation-building and social service. Volunteers gained clarity on how the portal enables individuals to contribute meaningfully to society while simultaneously enhancing their skills and career prospects. Through interactive guidance and hands-on registration support, participants were encouraged to explore various domains aligned with their interests and aspirations.\n\nBy the end of the session, all volunteers had successfully registered on the MyBharat Portal and developed a clear understanding of how to leverage the platform for long-term growth. The initiative laid a strong foundation for responsible citizenship, empowering volunteers to take informed steps toward social responsibility, community engagement, and professional advancement.",
+  //   summary: "The MyBharat Portal registration session provided volunteers with a comprehensive introduction to the platform, highlighting the various opportunities available for personal growth, social contribution, and career advancement. By registering on the portal, volunteers gained valuable insights into its features and took essential steps toward becoming actively engaged in meaningful internships and community service projects, setting the foundation for both social responsibility and professional development.",
+  // },
   {
     id: 50,
     project: "Mangrove Cleanup Drive",
@@ -538,16 +538,16 @@ export const major_projects = [
     main: "The project was conducted successfully with the aim of creating a positive and encouraging learning environment for children. Through teaching activities, fun games, and interactive sessions, the initiative helped students overcome stage fear and gradually build confidence in expressing themselves. The engaging approach ensured that learning remained enjoyable while fostering curiosity and participation among the children.\n\nThe activities were thoughtfully designed to support holistic development, allowing students to improve their communication skills, teamwork, and self-belief. By interacting freely with volunteers, the children felt motivated and comfortable, which contributed to a supportive and inclusive atmosphere throughout the sessions.\n\nFor the volunteers, the project proved to be a valuable learning experience. It strengthened their sense of empathy, teamwork, and leadership while reinforcing the importance of social responsibility. Overall, the initiative was impactful and meaningful, benefiting both the children and the volunteers while promoting the spirit of community service.",
     summary: "The project was conducted successfully and helped children overcome stage fear and build confidence through teaching, games, and interactive sessions. It created a positive environment for students while giving volunteers valuable experience in teamwork, empathy, and leadership, making the initiative impactful and meaningful."
   },
-  {
-    id: 52,
-    project: "Youth Day",
-    images: [],
-    reduced_images: [],
-    domain: "EDUCATION",
-    quote: "Awakening youth potential through the ideals of Swami Vivekananda.",
-    main: "The Youth Day Project conducted by the NSS unit at Dream Park, Kandivali, was a thoughtful initiative aimed at honouring the teachings and vision of Swami Vivekananda. The activity focused on inspiring young minds by highlighting the importance of confidence, self-belief, discipline, and responsibility in shaping a strong nation.\n\nAs part of the project, volunteers created an engaging Instagram reel that effectively communicated Swami Vivekananda’s message of empowered and value-driven youth. Through creative visuals and impactful messaging, the reel resonated with a wider audience, making the teachings accessible and relevant to today’s generation.\n\nThe initiative not only promoted national and moral values but also encouraged young individuals to recognise their inner potential and actively contribute to society. By blending digital creativity with social awareness, the Youth Day Project successfully reinforced the role of youth in nation-building and fostered a sense of pride, motivation, and responsibility among participants.", 
-    summary: "The Youth Day Project conducted by the NSS unit at Dream Park, Kandivali, was a meaningful initiative to honor the teachings of Swami Vivekananda. By creating an Instagram reel, the volunteers effectively conveyed his vision of a strong, confident, and responsible Indian youth. The activity not only promoted national values but also encouraged young individuals to believe in their potential and contribute positively to society.",
-    },
+  // {
+  //   id: 52,
+  //   project: "Youth Day",
+  //   images: [],
+  //   reduced_images: [],
+  //   domain: "EDUCATION",
+  //   quote: "Awakening youth potential through the ideals of Swami Vivekananda.",
+  //   main: "The Youth Day Project conducted by the NSS unit at Dream Park, Kandivali, was a thoughtful initiative aimed at honouring the teachings and vision of Swami Vivekananda. The activity focused on inspiring young minds by highlighting the importance of confidence, self-belief, discipline, and responsibility in shaping a strong nation.\n\nAs part of the project, volunteers created an engaging Instagram reel that effectively communicated Swami Vivekananda’s message of empowered and value-driven youth. Through creative visuals and impactful messaging, the reel resonated with a wider audience, making the teachings accessible and relevant to today’s generation.\n\nThe initiative not only promoted national and moral values but also encouraged young individuals to recognise their inner potential and actively contribute to society. By blending digital creativity with social awareness, the Youth Day Project successfully reinforced the role of youth in nation-building and fostered a sense of pride, motivation, and responsibility among participants.", 
+  //   summary: "The Youth Day Project conducted by the NSS unit at Dream Park, Kandivali, was a meaningful initiative to honor the teachings of Swami Vivekananda. By creating an Instagram reel, the volunteers effectively conveyed his vision of a strong, confident, and responsible Indian youth. The activity not only promoted national values but also encouraged young individuals to believe in their potential and contribute positively to society.",
+  //   },
   {
     id: 53,
     project: "IFS Officer Meet",
@@ -1172,15 +1172,15 @@ export const minor_project = [
     "The Road Safety Rally conducted at Vivek College, Mumbai was organised in a well-planned and disciplined manner, reflecting the commitment and preparedness of the NSS volunteers. Volunteers reported to the venue on time and actively participated in preparatory activities such as warm-up exercises and zumba sessions, which helped create positive energy and enthusiasm before the rally.\n\nThe rally was carried out in an orderly fashion, with volunteers moving in pairs along a designated circuit route that began and concluded at the college premises. Their disciplined participation ensured smooth coordination and effective message delivery. Upon successful completion of the rally, volunteers were appreciated for their energetic involvement, while college leaders were honoured with participation certificates. All volunteers were also provided with refreshments and certificates, bringing the event to a positive conclusion that reinforced teamwork, discipline, and social responsibility among the NSS volunteers.",
   domain: "SOCIETY",
 },
-{
-  id: 269,
-  image: [...newImages.Importance_Of_Voting],
-  project: "Importance of Voting",
-  quote: "Every vote counts in shaping the future of our democracy.",
-  summary:
-    "The awareness activity on the Importance of Voting conducted by the NSS unit effectively highlighted the responsibility of every citizen in strengthening a democratic system. By using an Instagram reel as the medium, the initiative successfully reached a wider audience, particularly the youth, making the message engaging and accessible.\n\nThe activity encouraged young citizens to understand the significance of exercising their right to vote responsibly and actively participate in the democratic process. By promoting civic awareness through digital platforms, the initiative reinforced the value of informed participation in nation-building and reflected the NSS commitment to fostering responsible and aware citizens.",
-  domain: "SOCIETY",
-},
+// {
+//   id: 269,
+//   image: [...newImages.Importance_Of_Voting],
+//   project: "Importance of Voting",
+//   quote: "Every vote counts in shaping the future of our democracy.",
+//   summary:
+//     "The awareness activity on the Importance of Voting conducted by the NSS unit effectively highlighted the responsibility of every citizen in strengthening a democratic system. By using an Instagram reel as the medium, the initiative successfully reached a wider audience, particularly the youth, making the message engaging and accessible.\n\nThe activity encouraged young citizens to understand the significance of exercising their right to vote responsibly and actively participate in the democratic process. By promoting civic awareness through digital platforms, the initiative reinforced the value of informed participation in nation-building and reflected the NSS commitment to fostering responsible and aware citizens.",
+//   domain: "SOCIETY",
+// },
 {
   id: 270,
   image: [...newImages.Dr_MR_Srinivasan_Memorial_Lecture],

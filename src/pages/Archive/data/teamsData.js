@@ -5,8 +5,8 @@ export const teamsData = [
         year: "2025–26",
         council: [
             { name: "Pragati Jha", position: "Student Leader", image: ArchiveImages["2025-26"].Pragati_Jha },
-            { name: "Shweta Yadav", position: "Student Leader", image: ArchiveImages["2025-26"].Shweta_Yadav },
             { name: "Rajkumar Yadav", position: "Student Leader", image: ArchiveImages["2025-26"].Rajkumar_Yadav },
+            { name: "Shweta Yadav", position: "Student Leader", image: ArchiveImages["2025-26"].Shweta_Yadav },
             { name: "Adarsh Singh", position: "Admin Head", image: ArchiveImages["2025-26"].Adarsh_Singh },
             { name: "Krishna Kulkarni", position: "Admin Head", image: ArchiveImages["2025-26"].Krishna_Kulkarni },
             { name: "Omwardhan Jha", position: "Admin Head", image: ArchiveImages["2025-26"].Omwardhan_Jha },
