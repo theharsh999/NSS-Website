@@ -53,7 +53,7 @@ const cards = [
       desi: "Student Leader",
       social: {
         instagram: "https://www.instagram.com/cantfindrae/",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/shweta-yadav07/",
       },
       about:
         "Ms. Shweta Yadav is known for her supportive nature, strong commitment, and ability to motivate every volunteer with positivity. She always encourages the team to give their best and adds fun moments that make the journey enjoyable for everyone. Whether it’s explaining tasks with clarity or guiding volunteers patiently, she ensures no one feels left behind. Her seriousness toward NSS reflects her sense of responsibility and dedication, making her a reliable and inspiring presence within the unit.",
